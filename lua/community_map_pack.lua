@@ -18,8 +18,8 @@ end))
 
 function PluginMetadata()
     return {
-        name = "Alpha Halo",
-        author = "El Dream Team",
+        name = "CMP",
+        author = "Insurrection Team",
         version = "1.0.0",
         targetApi = "1.0.0",
         reloadable = true,
