@@ -2,7 +2,26 @@ version: 1
 tag_space: 64M
 extend_limits: true
 scenarios:
-  - levels/test/test
+  - cmp/levels/alpine/cmp_alpine_dev
+  - cmp/levels/cenotaph/cmp_cenotaph_dev
+  - cmp/levels/city_streets/cmp_city_streets_dev
+  - cmp/levels/cold_shoulder/cmp_cold_shoulder_dev
+  - cmp/levels/fallout/cmp_fallout_dev
+  - cmp/levels/frigid_keep/cmp_frigid_keep_dev
+  - cmp/levels/gothra/cmp_gothra_dev
+  - cmp/levels/gridiron/cmp_gridiron_dev
+  - cmp/levels/hemoasis/cmp_hemoasis_dev
+  - cmp/levels/infinite/cmp_infinite_dev
+  - cmp/levels/intensity/cmp_intensity_dev
+  - cmp/levels/magnitude/cmp_magnitude_dev
+  - cmp/levels/nitra/cmp_nitra_dev
+  - cmp/levels/prudhoe/cmp_prudhoe_dev
+  - cmp/levels/retribution/cmp_retribution_dev
+  - cmp/levels/ruins_of_alph/cmp_ruins_of_alph_dev
+  - cmp/levels/snowbind/cmp_snowbind_dev
+  - cmp/levels/synthesis/cmp_synthesis_dev
+  - cmp/levels/warren/cmp_warren_dev
+  - cmp/levels/worthy/cmp_worthy_dev
 commands:
   release:
     - mercury build --release --output package/game-maps/
